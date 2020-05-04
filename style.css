@@ -12,13 +12,14 @@ body {
   background-size: cover;
 }
 
-/*.header {
-  display: grid;
+.header {
+  /*display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-}*/
+  grid-template-rows: 1fr 1fr 1fr;*/
+}
 
 #title {
+  font-family: 'Righteous', cursive;
   display: flex;
   justify-content: center;
   /*grid-area: 1/2/2/3;
@@ -28,6 +29,7 @@ body {
 }
 
 #description {
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   justify-content: center;
   /*grid-area: 2/2/3/3;
@@ -35,6 +37,7 @@ body {
 }
 
 .main {
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   justify-content: center;
 }
@@ -45,6 +48,8 @@ body {
 }
 
 .footer {
+  font-family: 'Righteous', cursive;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
