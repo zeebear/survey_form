@@ -14,9 +14,6 @@ body {
 }
 
 .header {
-  /*display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;*/
   color: white;
   margin-top: 0;
   padding-top: 10px;
@@ -26,18 +23,12 @@ body {
   font-family: 'Righteous', sans-serif;
   display: flex;
   justify-content: center;
-  /*grid-area: 1/2/2/3;
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  color: black;*/
 }
 
 #description {
   font-family: 'Open Sans', sans-serif;
   display: flex;
   justify-content: center;
-  /*grid-area: 2/2/3/3;
-  text-align: center;*/
 }
 
 .main {
