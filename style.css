@@ -45,6 +45,20 @@ body {
 #survey-form {
   background-color: rgba(25, 25, 25, 0.6);
   width: 40vw;
+  color: white;
+}
+
+input, #dropdown, #text-area {
+  background-color: white;
+  color: black;
+}
+
+#text-area-container {
+  margin: 15px 0;
+}
+
+#text-area {
+  width: 90%;
 }
 
 .footer {
