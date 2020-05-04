@@ -5,6 +5,7 @@ body {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  background-color: black;
 }
 
 .container {
@@ -16,6 +17,9 @@ body {
   /*display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;*/
+  color: white;
+  margin-top: 0;
+  padding-top: 22px;
 }
 
 #title {
@@ -65,5 +69,11 @@ input, #dropdown, #text-area {
   font-family: 'Righteous', cursive;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin: 20px 0;
+  color: white;
+}
+
+.footer a {
+  color: #3391ff;
+  text-decoration: none;
 }
