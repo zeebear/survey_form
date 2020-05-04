@@ -40,8 +40,8 @@ body {
 }
 
 #survey-form {
-  background-color: rgba(0, 0, 255, 0.7);
-  width: 500px;
+  background-color: rgba(80, 80, 80, 0.7);
+  width: 40vw;
 }
 
 .footer {
