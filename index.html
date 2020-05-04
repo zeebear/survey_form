@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zee's FCC Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="title">Mapping the local music scene</h1>
+      <p id="description">Tell us about your band here</p>
+    </header>
+    <main class="main">
+      <form id="survey-form" action="/url-where-you-want-to-submit-form-data">
+        <div>
+          <label for="name" id="name-label">Band name:</label>
+          <input type="text" id="name" placeholder="Buffalo Springfield" required>
+        </div>
+
+        <div>
+          <label for="email" id="email-label">Contact email:</label>
+          <input type="email" id="email" placeholder="buffalo@springfield.com" required>
+        </div>
+
+        <div>
+          <label for="number" id="number-label">Number of band members:</label>
+          <input type="number" id="number" min="1" max="20" placeholder="5">
+        </div>
+
+        <div>
+          <label for="dropdown" id="dropdown-label">Genre:</label>
+          <select id="dropdown">
+            <option>Pop</option>
+            <option>Rock</option>
+            <option>R&B</option>
+            <option>Blues</option>
+            <option>Jazz</option>
+            <option>Latin</option>
+            <option>House</option>
+            <option>Tango</option>
+            <option>Easy Listening</option>
+            <option>Country</option>
+            <option>Heavy Metal</option>
+          </select>
+        </div>
+
+        <p>Would you like to participate in a local music showcase event?</p>
+
+        <div>
+          <input type="radio" id="yes" name="radio-buttons" value="yes" checked>
+          <label for="yes">Yes</label>
+        </div>
+
+        <div>
+          <input type="radio" id="no" name="radio-buttons" value="no">
+          <label for="no">No</label>
+        </div>
+
+        <div>
+          <input type="radio" id="maybe" name="radio-buttons" value="maybe">
+          <label for="maybe">Maybe -- tell me more</label>
+        </div>
+
+        <p>Where can we find your music? (check all that apply):</p>
+
+        <div>
+          <input type="checkbox" id="check-1" name="check-1" value="media-type">
+          <label for="check-1">Local radio</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="check-2" name="check-2" value="media-type">
+          <label for="check-2">Local television</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="check-3" name="check-3" value="media-type">
+          <label for="check-3">Spotify</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="check-11" name="check-11" value="media-type">
+          <label for="check-11">iTunes</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="check-4" name="check-4" value="media-type">
+          <label for="check-4">YouTube</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="check-8" name="check-8" value="media-type">
+          <label for="check-8">SoundCloud</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="check-9" name="check-9" value="media-type">
+          <label for="check-9">Bandcamp</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="check-5" name="check-5" value="media-type">
+          <label for="check-5">Facebook</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="check-6" name="check-6" value="media-type">
+          <label for="check-6">Instagram</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="check-10" name="check-10" value="media-type">
+          <label for="check-10">Snapchat</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="check-7" name="check-7" value="media-type">
+          <label for="check-7">Twitter</label>
+        </div>
+
+        <div>
+          <label for"textarea">Any comments or suggestions?</label>
+          <textarea type="text" id="text-area" placeholder="Leave your comments here"></textarea>
+        </div>
+
+        <div>
+          <button type="submit" id="submit">Submit</button>
+        </div>
+
+      </form>
+    </main>
+    <footer>Photo by <a href="https://unsplash.com/@arstyy" target="_blank">Austin Neill</a> on <a href="https://unsplash.com/">Unsplash</a></footer>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.container {
+  background: linear-gradient(35deg, rgba(100, 100, 100, 0.9), rgba(25, 25, 25, 0.9)), url("https://github.com/zeebear/fCCScratchpad/raw/master/austin-neill-1t0yy9lspye-unspl.jpg");
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#title {
+  grid-area: 1/2/2/3;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+#description {
+  grid-area: 2/2/3/3;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+#survey-form {
+  background-color: rgba(0, 0, 255, 0.7);
+  width: 500px;
+}
