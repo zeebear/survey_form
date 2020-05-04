@@ -9,12 +9,9 @@ body {
 }
 
 .container {
-  background: linear-gradient(90deg, rgba(100, 100, 100, 0.4), rgba(25, 25, 25, 0.9), rgba(25, 25, 25, 0.9), rgba(25, 25, 25, 0.9), rgba(25, 25, 25, 0.9), rgba(100, 100, 100, 0.4)), url('austin-neill-1t0yy9lspye-unsplash2.jpg');
+  background: linear-gradient(90deg, rgba(100, 100, 100, 0.4), rgba(25, 25, 25, 0.9), rgba(25, 25, 25, 0.9), rgba(25, 25, 25, 0.9), rgba(25, 25, 25, 0.9), rgba(100, 100, 100, 0.4)), url("https://res.cloudinary.com/diyosnlxf/image/upload/v1588636650/austin-neill-1t0yY9lSpyE-unsplash2.jpg");
   background-size: cover;
 }
-
-/*"https://github.com/zeebear/fCCScratchpad/raw/master/austin-neill-1t0yy9lspye-unspl.jpg"*/
-/*"austin-neill-1t0yy9lspye-unsplash2.jpg"*/
 
 .header {
   color: white;
