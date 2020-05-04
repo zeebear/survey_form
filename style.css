@@ -19,7 +19,7 @@ body {
   grid-template-rows: 1fr 1fr 1fr;*/
   color: white;
   margin-top: 0;
-  padding-top: 22px;
+  padding-top: 10px;
 }
 
 #title {
@@ -57,12 +57,19 @@ input, #dropdown, #text-area {
   color: black;
 }
 
+input[type=text], input[type=email], input[type=number], #text-area {
+  width: 95%;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
 #text-area-container {
   margin: 15px 0;
 }
 
-#text-area {
-  width: 90%;
+select {
+  width: 96%;
+  font-size: 16px;
 }
 
 .footer {
